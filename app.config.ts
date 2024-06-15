@@ -1,12 +1,12 @@
 export default defineAppConfig({
   shadcnDocs: {
     site: {
-      name: 'shadcn-docs',
+      name: 'Anime Nuxt',
       description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
       ogImage: '/hero.png',
     },
     header: {
-      title: 'shadcn-docs',
+      title: 'Anime Nuxt',
       showTitle: true,
       logo: {
         light: '/logo.svg',

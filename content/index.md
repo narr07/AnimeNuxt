@@ -5,10 +5,6 @@ navigation: false
 
 ::hero
 ---
-announcement:
-  title: 'Release v0.2.0'
-  icon: 'noto:party-popper'
-  to: /getting-started
 actions:
   - name: Get Started
     to: /getting-started
@@ -19,12 +15,8 @@ actions:
 ---
 
 #title
-Effortless and Beautiful<br>Docs Template.
+<span class="dark:text-white">Anime.js</span>with Nuxt Js
 
 #description
 Beautifully designed Nuxt Content template with shadcn-vue.<br>Customizable. Compatible. Open Source.
 ::
-
-<div class="border rounded-lg shadow-md">
-  <iframe src="/getting-started/writing/components" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0">
-</div>
