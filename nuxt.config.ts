@@ -80,4 +80,28 @@ export default defineNuxtConfig({
   delayHydration: {
     mode: 'mount',
   },
+  nitro: {
+    prerender: {
+      failOnError: false,
+      crawlLinks: true,
+      routes: [
+        '/',
+        '/**',
+      ],
+    },
+  },
+  routeRules: {
+    // Homepage pre-rendered at build time
+    '/': { prerender: true },
+    '/**': { prerender: true },
+  },
+  hooks: {
+
+    'components:extend': function (components) {
+      for (const comp of components) {
+        if (comp.global)
+          comp.global = 'sync';
+      }
+    },
+  },
 });
