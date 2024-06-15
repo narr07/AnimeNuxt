@@ -3,6 +3,9 @@ title: Home
 navigation: false
 ---
 
+::nuxt-animation
+::
+
 ::hero
 ---
 actions:
