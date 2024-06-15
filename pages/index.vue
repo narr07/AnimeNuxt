@@ -6,6 +6,7 @@
       :value="page"
     />
   </div>
+  <BgAnimation />
   <LayoutFooter />
 </template>
 
